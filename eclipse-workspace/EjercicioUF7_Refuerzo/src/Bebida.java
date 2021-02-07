@@ -8,6 +8,17 @@ public class Bebida {
 		this.bebida=bebida;
 		this.precio=precio;
 	}
-	
 
+	public float getPrecio() {
+		return this.precio;
+	}
+	
+	public String getBebida() {
+		return this.bebida;
+	}
+	@Override
+    public String toString() {
+          return "Servicio [bebida=" + bebida + ", precio=" + precio + "]";
+    }
+	
 }
