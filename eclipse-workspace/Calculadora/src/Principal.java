@@ -6,7 +6,6 @@ public class Principal {
 			System.out.println(Cociente.division(50, 5));
 			System.out.println(Cociente.inverso(70.50));
 			System.out.println(Cociente.raizCuadrada(9));
-			System.out.println(Cociente.raizCuadrada(9));
 
 	}
 
